@@ -8,4 +8,9 @@ public class Powerup : MonoBehaviour
     {
 
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }
 }
