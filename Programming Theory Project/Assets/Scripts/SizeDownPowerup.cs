@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SizeDownPowerup : Powerup // Inheritance
+public class SizeDownPowerup : Powerup // INHERITANCE
 {
     public override void ActivatePowerup(GameObject player) // POLYMORPHISM
     {

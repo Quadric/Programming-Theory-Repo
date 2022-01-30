@@ -9,7 +9,7 @@ public class Powerup : MonoBehaviour
 
     }
 
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)  // ENCAPSULATION
     {
         Destroy(gameObject);
     }
